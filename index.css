@@ -1,9 +1,13 @@
 h3 {
-    color: green;
+    color: rgb(128, 68, 0);
 }
 
 h4 {
     color: blue;
+}
+
+body {
+    background-color: lightblue;
 }
 
 .divImagens {
