@@ -1,0 +1,39 @@
+h1{
+                
+    text-align: center;
+  }
+  h3{
+      font-family: verdana;
+      text-align: left;
+  }
+  h4{
+      font-family: verdana;
+      text-align: left;
+  }
+
+  .divImagens{
+      border: 1px solid black;
+      width: 150px;
+      height: 150px;
+  }
+  .divLinks{
+      border: 1px solid black;
+      width: 80px;
+      height: 20px;
+  }
+  body {
+      background-color: lightgray;
+  }
+  p {
+      font-family: verdana;
+      font-size: 20px;
+  }
+  p.dashed {
+      border-style: dashed;
+  }
+
+  table, th, td {
+  border: 10px solid rgb(101, 116, 93);
+  border-collapse: collapse;
+  text-align:left;
+  }
