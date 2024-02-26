@@ -1,19 +1,19 @@
 h1{
                 
     text-align: left;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: verdana;
   }
   h3{
       font-family: verdana;
       text-align: left;
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
 
   }
   h4{
       font-family: verdana;
       text-align: left;
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
 
   }
 
@@ -31,16 +31,17 @@ h1{
   p {
       font-family: verdana;
       font-size: 20px;
-      color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
   }
   p.dashed {
       border-style: dashed;
   }
 
   table, th, td {
-  border: 10px solid rgb(97, 110, 90);
+  border: 10px solid rgb(101, 116, 93);
   border-collapse: collapse;
   text-align:left;
-  color: rgb(255, 255, 255);
-  background-color: rgb(43, 74, 45);
+  color: rgb(0, 0, 0);
+  background-color: white;
+  width: "100%";
   }
