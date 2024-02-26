@@ -1,14 +1,20 @@
 h1{
                 
     text-align: left;
+    color: white;
+    font-family: verdana;
   }
   h3{
       font-family: verdana;
       text-align: left;
+      color: white;
+
   }
   h4{
       font-family: verdana;
       text-align: left;
+      color: white;
+
   }
 
   .divImagens{
@@ -21,12 +27,11 @@ h1{
       width: 80px;
       height: 20px;
   }
-  body {
-      background-color: rgb(251, 251, 251);
-  }
+  
   p {
       font-family: verdana;
       font-size: 20px;
+      color: white;
   }
   p.dashed {
       border-style: dashed;
@@ -36,4 +41,5 @@ h1{
   border: 10px solid rgb(101, 116, 93);
   border-collapse: collapse;
   text-align:left;
+  color: white;
   }
