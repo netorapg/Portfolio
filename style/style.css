@@ -44,3 +44,25 @@ h1{
   background-color: white;
   width: "100%";
   }
+
+.site-header, .site-footer{
+        background-color: rgb(45, 120, 55);
+        color: white;
+
+  }
+
+.main-navigation ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main-navigation a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-navigation ul li{
+    padding: 0 15px;
+}
