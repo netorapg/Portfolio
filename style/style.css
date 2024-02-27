@@ -1,96 +1,111 @@
-h1{
-                
+h1 {
+
     text-align: left;
     color: rgb(0, 0, 0);
     font-family: verdana;
-  }
-  h3{
-      font-family: verdana;
-      text-align: left;
-      color: rgb(0, 0, 0);
+}
 
-  }
-  h4{
-      font-family: verdana;
-      text-align: left;
-      color: rgb(0, 0, 0);
-
-  }
-
-  .divImagens{
-      width: 150px;
-      height: 150px;
-  }
-  .divLinks{
-      border: 1px solid black;
-      width: 80px;
-      height: 20px;
-  }
-  
-  p {
-      font-family: verdana;
-      font-size: 20px;
-      color: rgb(0, 0, 0);
-  }
-  p.dashed {
-      border-style: dashed;
-  }
-
-  table, th, td {
-  border: 2px;
-  border-radius: 15px;
-  border-collapse: collapse;
-  text-align:left;
-  color: rgb(0, 0, 0);
-  background-color: white;
-  width: "100%";
-  padding: 0 10;
-  }
-
-.site-header, .site-footer{
-        background-color: rgb(28, 44, 30);
-        color: white;
-
-  }
-
-
-body{
+h3 {
     font-family: verdana;
-    background-color: rgb(175, 240, 153);
+    text-align: left;
     color: rgb(0, 0, 0);
-    
 
 }
 
-.main-navigation ul{
+h4 {
+    font-family: verdana;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+}
+
+.divImagens {
+    width: 150px;
+    height: 150px;
+}
+
+.divLinks {
+    border: 1px solid black;
+    width: 80px;
+    height: 20px;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+table,
+th,
+td {
+    border: 2px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    width: "100%";
+    padding: 0 10;
+    box-shadow: 3px -3px rgb(38, 65, 22);
+}
+
+.site-header,
+.site-footer {
+    background-color: rgb(28, 44, 30);
+    color: white;
+
+}
+
+
+body {
+    font-family: verdana;
+    background-color: rgb(175, 240, 153);
+    color: rgb(0, 0, 0);
+
+
+}
+
+.main-navigation ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-.main-navigation a{
+.main-navigation a {
     color: white;
     text-decoration: none;
 
 }
 
-.main-navigation ul li{
+.main-navigation ul li {
     padding: 0 15px;
-    
+
 }
 
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
 }
 
-.container{
+.container {
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
 
 }
 
-.container img{
+.container img {
     border-radius: 15px;
+
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
