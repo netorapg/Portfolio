@@ -40,9 +40,7 @@ p.dashed {
     border-style: dashed;
 }
 
-table,
-th,
-td {
+table {
     border: 2px;
     border-radius: 15px;
     border-collapse: collapse;
@@ -51,9 +49,18 @@ td {
     background-color: white;
     width: "100%";
     padding: 0 10;
-    box-shadow: 3px -3px rgb(38, 65, 22);
+
 }
 
+td{
+    padding: 0 5;
+
+}
+
+td img{
+    border: 2px;
+    border-radius: 15px;
+}
 .site-header,
 .site-footer {
     background-color: rgb(28, 44, 30);
@@ -104,12 +111,30 @@ body {
 
 }
 
-.project-grid{
+.project-grid {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit,  minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.project-item{
-    
+.project-item {
+    border: 2px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px #333;
+   
+}
+
+.project-item img {
+    border: 2px;
+    border-radius: 5000px;
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.project-info {
+    border-top: 3px solid #333;
+    padding: 10px;
 }
