@@ -55,6 +55,7 @@ table {
 td{
     padding: 0 5;
 
+
 }
 
 td img{
@@ -113,7 +114,7 @@ body {
 
 .project-grid {
     display: grid;
-    gap: 20px;
+    gap: 5px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -137,4 +138,19 @@ body {
 .project-info {
     border-top: 3px solid #333;
     padding: 10px;
+    width: 20%;
+}
+
+.progress-bar{
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.progress-bar::before{
+    content: "";
+    width: 50%;
+    background-color: #4caf50;
 }
