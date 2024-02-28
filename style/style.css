@@ -52,16 +52,17 @@ table {
 
 }
 
-td{
+td {
     padding: 0 5;
 
 
 }
 
-td img{
+td img {
     border: 2px;
     border-radius: 15px;
 }
+
 .site-header,
 .site-footer {
     background-color: rgb(28, 44, 30);
@@ -121,12 +122,12 @@ body {
     border-collapse: collapse;
     background-color: white;
     box-shadow: 0 0 10px #333;
-   
+
 }
 
 .project-item img {
     border: 2px;
-    
+
     width: 100%;
     height: 200px;
     object-fit: contain;
@@ -154,13 +155,13 @@ body {
     width: 20%;
 }
 
-.project-info p{
+.project-info p {
     font-size: 15px;
     color: rgb(0, 0, 0);
 
 }
 
-.progress-bar{
+.progress-bar {
     --progress: 75;
     height: 50px;
     width: 400%;
@@ -171,7 +172,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar1{
+.progress-bar1 {
     --progress: 75;
     height: 50px;
     width: 400%;
@@ -182,7 +183,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar2{
+.progress-bar2 {
     --progress: 65;
     height: 50px;
     width: 400%;
@@ -193,7 +194,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar3{
+.progress-bar3 {
     --progress: 70;
     height: 50px;
     width: 400%;
@@ -204,7 +205,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar4{
+.progress-bar4 {
     --progress: 75;
     height: 50px;
     width: 400%;
@@ -215,7 +216,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar5{
+.progress-bar5 {
     --progress: 40;
     height: 50px;
     width: 400%;
@@ -226,7 +227,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar6{
+.progress-bar6 {
     --progress: 45;
     height: 50px;
     width: 400%;
@@ -237,7 +238,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar7{
+.progress-bar7 {
     --progress: 70;
     height: 50px;
     width: 400%;
@@ -248,7 +249,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar8{
+.progress-bar8 {
     --progress: 50;
     height: 50px;
     width: 400%;
@@ -259,7 +260,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar9{
+.progress-bar9 {
     --progress: 70;
     height: 50px;
     width: 400%;
@@ -270,7 +271,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar10{
+.progress-bar10 {
     --progress: 70;
     height: 50px;
     width: 400%;
@@ -281,7 +282,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar11{
+.progress-bar11 {
     --progress: 80;
     height: 50px;
     width: 400%;
@@ -292,7 +293,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar12{
+.progress-bar12 {
     --progress: 80;
     height: 50px;
     width: 400%;
@@ -303,7 +304,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar13{
+.progress-bar13 {
     --progress: 57;
     height: 50px;
     width: 400%;
@@ -314,7 +315,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar14{
+.progress-bar14 {
     --progress: 62;
     height: 50px;
     width: 400%;
@@ -325,7 +326,7 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar15{
+.progress-bar15 {
     --progress: 77;
     height: 50px;
     width: 400%;
@@ -336,130 +337,130 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar::before{
+.progress-bar::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar1::before{
+.progress-bar1::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar2::before{
+.progress-bar2::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar3::before{
+.progress-bar3::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar4::before{
+.progress-bar4::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar5::before{
+.progress-bar5::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar6::before{
+.progress-bar6::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar7::before{
+.progress-bar7::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar8::before{
+.progress-bar8::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar9::before{
+.progress-bar9::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar10::before{
+.progress-bar10::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar11::before{
+.progress-bar11::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
-    transition: all 0.2s ease;
-    border-radius: 15px;
-}   
-
-.progress-bar12::before{
-    content: "";
-    width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar13::before{
+.progress-bar12::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar14::before{
+.progress-bar13::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
 
-.progress-bar15::before{
+.progress-bar14::before {
     content: "";
     width: calc(var(--progress) * 1%);
-    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar15::before {
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl(calc(var(--progress) * 1.2), 80%, 50%);
     transition: all 0.2s ease;
     border-radius: 15px;
 }
