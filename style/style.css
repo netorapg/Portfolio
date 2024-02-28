@@ -137,6 +137,12 @@ body {
     width: 20%;
 }
 
+.project-info p{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+
+}
+
 .progress-bar{
     --progress: 75;
     height: 50px;
