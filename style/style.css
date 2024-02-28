@@ -171,7 +171,292 @@ body {
     border-radius: 15px;
 }
 
+.progress-bar1{
+    --progress: 75;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar2{
+    --progress: 65;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar3{
+    --progress: 70;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar4{
+    --progress: 75;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar5{
+    --progress: 40;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar6{
+    --progress: 45;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar7{
+    --progress: 70;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar8{
+    --progress: 50;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar9{
+    --progress: 70;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar10{
+    --progress: 70;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar11{
+    --progress: 80;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar12{
+    --progress: 80;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar13{
+    --progress: 57;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar14{
+    --progress: 62;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
+.progress-bar15{
+    --progress: 77;
+    height: 50px;
+    width: 400%;
+    padding: 5px;
+    background-color: #ccc;
+    display: flex;
+    border: 2px;
+    border-radius: 15px;
+}
+
 .progress-bar::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar1::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar2::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar3::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar4::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar5::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar6::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar7::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar8::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar9::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar10::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar11::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}   
+
+.progress-bar12::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar13::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar14::before{
+    content: "";
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.progress-bar15::before{
     content: "";
     width: calc(var(--progress) * 1%);
     background-color: hsl( calc(var(--progress) * 1.2), 80%, 50%);
