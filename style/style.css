@@ -491,5 +491,9 @@ body {
     .main-navigation ul{
         flex-direction: column;
     }
+    .main-navigation li{
+        margin-bottom: 10px;
+        font-size: large;
+    }
 
 }
