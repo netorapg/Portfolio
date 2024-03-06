@@ -1,6 +1,8 @@
 @import url(variable.css);
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
 }
@@ -90,7 +92,7 @@ body {
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
-   
+
 
 }
 
@@ -119,11 +121,11 @@ body {
     object-fit: contain;
 }
 
-.project-item:hover{
+.project-item:hover {
     box-shadow: 0 0 15px green;
 }
 
-.projects{
+.projects {
     border: 2px;
     border-radius: 15px;
     border-collapse: collapse;
@@ -134,7 +136,7 @@ body {
     transition: box-shadow var(--transition-speed);
 }
 
-.projects:hover{
+.projects:hover {
     box-shadow: 0 0 15px green;
 }
 
@@ -149,7 +151,7 @@ body {
     transition: box-shadow var(--transition-speed);
 }
 
-.hardskill:hover{
+.hardskill:hover {
     box-shadow: 0 0 15px green;
 
 }
@@ -163,7 +165,7 @@ body {
     margin-right: 10px;
 }
 
-.carteirinha{
+.carteirinha {
     border: 2px;
     border-radius: 15px;
     border-collapse: collapse;
@@ -173,7 +175,11 @@ body {
     margin: 10px;
 }
 
-.carteirinha img{
+.carteirinha:hover {
+    box-shadow: 0 0 15px green;
+}
+
+.carteirinha img {
     border: 2px;
     border-radius: 100%;
     float: left;
@@ -184,7 +190,7 @@ body {
 
 
 .clearfix::after {
-    content:"";
+    content: "";
     clear: both;
     display: table;
 }
@@ -200,7 +206,8 @@ body {
     margin: 10px;
     transition: box-shadow var(--transition-speed);
 }
-.certificates:hover{
+
+.certificates:hover {
     box-shadow: 0 0 15px green;
 }
 
@@ -208,7 +215,7 @@ body {
     border: 2px;
     width: 10%;
     object-fit: contain;
-    
+
 }
 
 .project-info {
@@ -223,7 +230,7 @@ body {
 }
 
 .progress-bar {
-    
+
     height: 20%;
     width: 60%;
     padding: 5px;
@@ -233,53 +240,67 @@ body {
     border-radius: 15px;
 }
 
-.progress-bar-change{
+.progress-bar-change {
     --progress: 75;
 }
 
-.progress-bar-change1{
+.progress-bar-change1 {
     --progress: 65;
 }
-.progress-bar-change2{
+
+.progress-bar-change2 {
     --progress: 70;
 }
-.progress-bar-change3{
+
+.progress-bar-change3 {
     --progress: 65;
 }
-.progress-bar-change4{
+
+.progress-bar-change4 {
     --progress: 20;
 }
-.progress-bar-change5{
+
+.progress-bar-change5 {
     --progress: 20;
 }
-.progress-bar-change6{
+
+.progress-bar-change6 {
     --progress: 45;
 }
-.progress-bar-change7{
+
+.progress-bar-change7 {
     --progress: 45;
 }
-.progress-bar-change8{
+
+.progress-bar-change8 {
     --progress: 45;
 }
-.progress-bar-change9{
+
+.progress-bar-change9 {
     --progress: 45;
 }
-.progress-bar-change10{
+
+.progress-bar-change10 {
     --progress: 45;
 }
-.progress-bar-change11{
+
+.progress-bar-change11 {
     --progress: 45;
 }
-.progress-bar-change12{
+
+.progress-bar-change12 {
     --progress: 45;
 }
-.progress-bar-change13{
+
+.progress-bar-change13 {
     --progress: 45;
 }
-.progress-bar-change14{
+
+.progress-bar-change14 {
     --progress: 45;
 }
-.progress-bar-change15{
+
+.progress-bar-change15 {
     --progress: 45;
 }
 
@@ -293,11 +314,12 @@ body {
 }
 
 
-@media screen and (max-width: 768px){
-    .main-navigation ul{
+@media screen and (max-width: 768px) {
+    .main-navigation ul {
         flex-direction: column;
     }
-    .main-navigation li{
+
+    .main-navigation li {
         margin-bottom: 10px;
         font-size: large;
     }
@@ -305,7 +327,28 @@ body {
 }
 
 @keyframes fadeIn {
-    from{opacity: 0;}
-    to{opacity: 1;}
- 
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: #e6d1ff;
+    border-radius: 15px;
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    filter: drop-shadow(2px 2px 8px #333333);
+}
+
+
+.button:hover {
+    box-shadow: 0 0 15px green;
 }
