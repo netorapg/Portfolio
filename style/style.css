@@ -123,6 +123,21 @@ body {
     box-shadow: 0 0 15px green;
 }
 
+.projects{
+    border: 2px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 1px #333;
+    padding: 10px;
+    margin: 10px;
+    transition: box-shadow var(--transition-speed);
+}
+
+.projects:hover{
+    box-shadow: 0 0 15px green;
+}
+
 .hardskill {
     border: 2px;
     border-radius: 15px;
