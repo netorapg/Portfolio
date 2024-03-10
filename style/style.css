@@ -53,7 +53,6 @@ p.dashed {
 .site-footer {
     background-color: rgb(28, 44, 30);
     color: white;
-
 }
 
 
@@ -69,6 +68,7 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    
 }
 
 .main-navigation a {
@@ -117,7 +117,7 @@ body {
 
 .project-item img {
     border: 2px;
-    width: 15%;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -135,6 +135,13 @@ body {
     margin: 10px;
     transition: box-shadow var(--transition-speed);
 }
+
+.projects img {
+    border: 2px;
+    
+    object-fit: contain;
+}
+
 
 .projects:hover {
     box-shadow: 0 0 15px green;
