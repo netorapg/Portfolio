@@ -1,8 +1,11 @@
+
+
 function somar() {
     let valor1 = document.getElementById("num1").value;
     let valor2 = document.getElementById("num2").value;
     let resultado = parseFloat(valor1) + parseFloat(valor2);
     document.getElementById("resultado").innerText = resultado;
+    navigator.clipboard.writeText(resultado);
 
 }
 
@@ -43,7 +46,12 @@ function dividir() {
 
 
 
-
+/*let inputnum1 = document.getElementById("num1");
+inputnum1.addEventListener("mouseover", function(){
+    while(5==5){
+    alert("O valor do campo foi alterado");
+    }
+}); */
 
 
 /*let titulo = document.getElementById("titulo1");

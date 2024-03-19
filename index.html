@@ -17,6 +17,7 @@
 <body>
     <header class="site-header">
         <div class="container">
+            <button class="menu-button">Menu</button>
             <nav class="main-navigation">
                 <ul>
                     <li><a href="#sobre-mim">Sobre Mim</a></li>
@@ -39,12 +40,8 @@
                 <br><b>CURSO:</b> Engenharia de Software
                 <br><b>PERÍODO:</b> 3°
                 <br><b>FACULDADE:</b> IFPR - Campus Paranavaí (2022-2025)
-
             </div>
-
         </section>
-
-
         <section id="sobre-mim">
             <div class="project-item">
                 <div>
@@ -377,6 +374,17 @@
         </div>
 
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var menuButton = document.querySelector('.menu-button');
+            var mainNavigation = document.querySelector('.main-navigation');
+
+            menuButton.addEventListener('click', function () {
+                mainNavigation.style.display = (mainNavigation.style.display === 'block') ? 'none' : 'block';
+            });
+        });
+    </script>
 </body>
 
 </html>
