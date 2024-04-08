@@ -6,7 +6,7 @@ html, body {
     sans-serif;
     background: #fff;
     padding: 80px 30px 30px;
-    color: #444;
+    color:rgb(11, 32, 30);
     height: 100%;
 }
 *,
@@ -25,8 +25,24 @@ div.container
 }
 
 #sobre-mim {
-    background-color: rgb(92,184,92);
+    background-color: rgb(3, 136, 125);
     text-align: center;
+    color: white;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+
+#soft-skills {
+    background-color: rgb(3, 136, 125);
+    text-align: left;
+    color: white;
+    margin: 0px 0 20px 0;
+    padding: 50px;
+}
+
+#experiencia-profissional {
+    background-color: rgb(3, 136, 125);
+    text-align: left;
     color: white;
     margin: 0px 0 20px 0;
     padding: 50px;
@@ -48,7 +64,7 @@ ol, ul {
 
 h1 {
     font-weight: bold;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 p {
@@ -63,7 +79,7 @@ p {
 
 code {
     background: #f8f8f8;
-    color: #d64f9b;
+    color: rgb(3, 136, 125);;
     border: 1px solid #eee;
     padding: 2px;
     border-radius: 3px;
@@ -71,7 +87,7 @@ code {
 
 a {
     font-weight: bold;
-    color: deeppink;
+    color: rgb(3, 136, 125);
     text-decoration: none;
     transition: all 200ms;
     &:hover,
@@ -90,7 +106,7 @@ article {
 
 .site-header,
 .site-footer {
-    background-color: rgb(28, 44, 30);
+    background-color: rgb(3, 136, 125);
     color: white;
     text-align: left;
 }
@@ -102,7 +118,7 @@ article {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(0, 230, 138);
+    background-color: rgb(3, 136, 125);
     position: fixed;
     padding: 30px;
     a {
@@ -120,21 +136,6 @@ article {
 }
 }
 
-/*
-.nav ul li {
-    margin-bottom: 20px;
-}
-
-
-.nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: blue;
-    transition: all 200ms;
-}
-*/
 div.borderYtoX a:before,
 div.borderYtoX a:after
 {
@@ -186,7 +187,7 @@ div.borderYtoX a:hover:after
     border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;
+    
 }
 
 .project-grid {
@@ -251,7 +252,7 @@ div.borderYtoX a:hover:after
 }
 
 .hardskill:hover {
-    box-shadow: 0 0 15px green;
+    box-shadow: 0 0 15px rgb(3, 136, 125);
 
 }
 
@@ -287,6 +288,11 @@ div.borderYtoX a:hover:after
 
 }
 
+.image-certificates{
+    border: 2px;
+    width: 1%;
+    object-fit: contain;
+}
 
 .progress-bar {
 
