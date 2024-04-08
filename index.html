@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="style/style.css" rel="stylesheet" />
 </head>
 
-<body>
+<body onLoad="initClock()">
     <header class="site-header">
         <div>
             <nav class="nav">
@@ -52,6 +52,16 @@
                     </p>
                 </div>
         </article>
+        <script src="clock.js"></script>
+        <div class="time-date">
+            <a id="mon">January</a>
+            <a id="d">1</a>,
+            <a id="y">0</a><br />
+            <a id="h">12</a> :
+            <a id="m">00</a>:
+            <a id="s">00</a>:
+            <a id="mi">000</a>
+        </div>
         <section id=" hard-skills">
                     <h1>Hard Skills</h1>
                     <h3>Linguagens de programação</h3>
@@ -315,25 +325,26 @@
                 </article>
 
     </main>
-    <footer class="site-footer">
 
-        <div class="container">
-            <div id="contato">
-                <h1>Contato</h1>
-                <a href="https://wa.me/5544997446666" target="_blank" rel="noopener noreferrer" title="WhatsApp"
-                    style="text-decoration: none">
-                    <img src="img/whatsapp.png" alt="WhatsApp" style="width:40px;height:40px;">
-                </a>
-                <a href="mailto:renatoplatz11@gmail.com" target="_blank" rel="noopener noreferrer" title="Enviar e-mail"
-                    style="text-decoration: none">
-                    <img src="img/gmail-logo.png" alt="E-mail" style="width:40px;height:40px;">
-                </a>
+   
+        <footer class="site-footer">
+
+            <div class="container">
+                <div id="contato">
+                    <h1>Contato</h1>
+                    <a href="https://wa.me/5544997446666" target="_blank" rel="noopener noreferrer" title="WhatsApp"
+                        style="text-decoration: none">
+                        <img src="img/whatsapp.png" alt="WhatsApp" style="width:40px;height:40px;">
+                    </a>
+                    <a href="mailto:renatoplatz11@gmail.com" target="_blank" rel="noopener noreferrer"
+                        title="Enviar e-mail" style="text-decoration: none">
+                        <img src="img/gmail-logo.png" alt="E-mail" style="width:40px;height:40px;">
+                    </a>
+                </div>
+                <p>&copy; 2024 Renato Augusto A. Platz G. Neto. Todos os direitos reservados.</p>
             </div>
-        
-            <p>&copy; 2024 Renato Augusto A. Platz G. Neto. Todos os direitos reservados.</p>
-        </div>
 
-    </footer>
-</body>
+        </footer>
+    </body>
 
 </html>
