@@ -129,77 +129,61 @@ article {
 }
 
 .site-footer {
-    background-color: #26272b;
-    padding: 45 0 20px;
-    font-size: 15px;
-    line-height: 24px;
-    color: #737373;
+    background-color:rgb(3, 136, 125);
+    padding: 20px 0;
+    text-align: center;
 }
 
-.site-footer hr {
-    border-top-color: #bbb;
-    opacity: 0.5;
+.site-footer .container {
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
-.site-footer hr.small {
-    margin: 20px 0
-}
-
-.site-footer h6 {
-    color: #fff;
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-top: 5px;
-    letter-spacing: 2px
-}
-
-.site-footer a {
-    color: #737373;
-}
-
-.site-footer a.hover {
-    color: #3366cc;
-    text-decoration: none;
-}
-
-.footer-links {
-    padding-left: 0;
-    list-style: none
-}
-
-.footer-links li {
-    display: block
-}
-
-.footer-links a {
-    color: #737373
-}
-
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-    color: #3366cc;
-    text-decoration: none;
-}
-
-.footer-links.inline li {
-    display: inline-block
+.site-footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .site-footer .social-icons {
-    text-align: right
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer .social-icons li {
+    margin: 0 10px;
 }
 
 .site-footer .social-icons a {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    margin-left: 6px;
-    margin-right: 0;
-    border-radius: 100%;
-    background-color: #33353d
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
 
+.site-footer .social-icons a:hover {
+    color: #007bff;
+}
+
+.site-footer .copyright-text {
+    margin: 0;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .site-footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-footer .col-md-8,
+    .site-footer .col-md-4 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
 .copyright-text {
     margin: 0
 }
@@ -240,8 +224,8 @@ article {
     font-size:13px
 }
 .social-icons a{
-    background-color:#eceeef;
-    color:#818a91;
+    background-color:#ffffff;
+    color:#000000;
     font-size:16px;
     display:inline-block;
     line-height:44px;
@@ -256,7 +240,7 @@ article {
 }
 .social-icons a:active, .social-icons a:focus, .social-icons a:hover 
 {
-    color:#fff;
+    color:#000000;
     background-color:#29aafe
 }
 .social-icons.size-sm a
@@ -280,7 +264,7 @@ article {
 }
 .social-icons a.github:hover
 {
-    background-color:#c0c0c0
+    background-color:#671abe
 }
 @media (max-width:767px)
 {

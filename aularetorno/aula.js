@@ -2,6 +2,7 @@ async function consultarRepositorios(){
         const nomeUsuario = document.getElementById("inputNomeUsuario").value;
         console.log(nomeUsuario);
         const listaRepositorios = document.getElementById("listaRepositorios");
+        const status = document.getElementById("status");
         listaRepositorios.innerText='';
         if(!nomeUsuario) {
             alert("Informar o nome do usuário");
@@ -9,10 +10,9 @@ async function consultarRepositorios(){
         }
 
         const url = `https://api.github.com/users/${nomeUsuario}/repos`;
-
-        try {
+        status.innerText = "Carregando...";
+        try {   
             const resposta = await fetch(url);
-            const status = await "Carregando...";
             console.log("antes da promise");
             /*resposta.then(res => {
                 console.log(res);
@@ -38,4 +38,5 @@ async function consultarRepositorios(){
         } catch (error) {
             
         }
+status.innerText = "";
 }
