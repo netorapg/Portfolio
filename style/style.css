@@ -275,7 +275,18 @@ article {
         font-weight: 600
     }
 }
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
 
+#clock {
+    font-size: 4em;
+}
 
 
 .nav {
