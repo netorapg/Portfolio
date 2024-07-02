@@ -8,9 +8,9 @@ html,
 body {
     font-family: "Verdana",
         sans-serif;
-    background: #fff;
+    background: #000000;
     padding: 100px 50px 50px;
-    color: rgb(11, 32, 30);
+    color: rgb(255, 255, 255);
     height: auto;
     width: auto;
 }
@@ -115,7 +115,7 @@ a {
 
     &:hover,
     &:focus {
-        color: black;
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -420,7 +420,7 @@ div.borderYtoX a:hover:after {
     border: 2px;
     border-radius: 15px;
     border-collapse: collapse;
-    background-color: white;
+    background-color:  rgb(3, 136, 125);
     box-shadow: 0 0 1px #333;
     padding: 10px;
     margin: 10px;
