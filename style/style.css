@@ -8,9 +8,9 @@ html,
 body {
     font-family: "Verdana",
         sans-serif;
-    background: #000000;
-    padding: 100px 50px 50px;
-    color: rgb(255, 255, 255);
+    background: #fef5c8;
+    padding-top: 40px;
+    color: #f23e02;
     height: auto;
     width: auto;
 }
@@ -42,18 +42,18 @@ div.container {
 }
 
 #sobre-mim {
-    background-color: rgb(3, 136, 125);
+    background-color: #00988d;
     text-align: center;
-    color: white;
+    color: #fef5c8;
     margin: 0px 0 20px 0;
     padding: 50px;
     width: auto;
 }
 
 #soft-skills {
-    background-color: rgb(3, 136, 125);
+    background-color: #00988d;
     text-align: left;
-    color: white;
+    color: #fef5c8;
     margin: 0px 0 20px 0;
     padding: 50px;
 }
@@ -61,7 +61,7 @@ div.container {
 #experiencia-profissional {
     background-color: rgb(3, 136, 125);
     text-align: left;
-    color: white;
+    color: #fef5c8;
     margin: 0px 0 20px 0;
     padding: 50px;
 }
@@ -84,7 +84,7 @@ ul {
 
 h1 {
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #013750;
 }
 
 p {
@@ -100,7 +100,7 @@ p {
 
 code {
     background: #f8f8f8;
-    color: rgb(3, 136, 125);
+    color: #f23e02;
     ;
     border: 1px solid #eee;
     padding: 2px;
@@ -109,7 +109,7 @@ code {
 
 a {
     font-weight: bold;
-    color: rgb(3, 136, 125);
+    color: #f23e02;
     text-decoration: none;
     transition: all 200ms;
 
@@ -129,20 +129,27 @@ article {
 }
 
 .site-footer {
-    background-color:rgb(3, 136, 125);
-    padding: 20px 0;
+    background-color: #013750;
     text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+
 }
 
 .site-footer .container {
-    max-width: 1170px;
+    
+    width: 100%;
     margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
 }
 
 .site-footer .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .site-footer .social-icons {
@@ -161,6 +168,7 @@ article {
     color: #333;
     font-size: 18px;
     transition: color 0.3s ease;
+    text-decoration: none;
 }
 
 .site-footer .social-icons a:hover {
@@ -169,7 +177,21 @@ article {
 
 .site-footer .copyright-text {
     margin: 0;
-    color: #000000;
+    color: #fef5c8;
+    flex: 1;
+    text-align: left;
+}
+
+
+@media (max-width: 767px) {
+    .site-footer .row {
+        flex-direction: column;
+        text-align: center; /* Centraliza o texto em telas menores */
+    }
+    .site-footer .copyright-text {
+        text-align: center;
+        margin-bottom: 10px; /* Adiciona margem inferior para espaçamento */
+    }
 }
 
 @media (max-width: 768px) {
@@ -294,7 +316,7 @@ footer {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(3, 136, 125);
+    background-color: #013750;
     position: fixed;
     padding: 1px;
 
@@ -315,33 +337,6 @@ footer {
     }
 }
 
-div.borderYtoX a:before,
-div.borderYtoX a:after {
-    position: absolute;
-    opacity: 0.5;
-    height: 100%;
-    width: 2px;
-    content: '';
-    background: #FFF;
-    transition: all 0.3s;
-}
-
-div.borderYtoX a:before {
-    left: 0;
-    top: 0;
-}
-
-div.borderYtoX a:after {
-    right: 0;
-    bottom: 0;
-}
-
-div.borderYtoX a:hover:before,
-div.borderYtoX a:hover:after {
-    opacity: 1;
-    height: 2px;
-    width: 100%;
-}
 
 * {
     padding: 0;
