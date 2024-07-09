@@ -8,9 +8,9 @@ html,
 body {
     font-family: "Verdana",
         sans-serif;
-    background: #fef5c8;
+    background: var(--background-body, #ffeb87);
     padding-top: 40px;
-    color: #f23e02;
+    color: var(--color-body, #333);
     margin: 0;
     padding: 0;
 }
@@ -42,11 +42,11 @@ div.container {
 }
 
 #sobre-mim {
-    background-color: #2c6b74;
+    background-color: var(--background-sobre-mim, #2c6b74);
     text-align: center;
-    color: #fef5c8;
+    color: var(--color-sobre-mim, #c3ccaf);
     margin: 0;
-    padding: 70px 20px;
+    padding: 5px 20px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -59,13 +59,13 @@ div.container {
 #sobre-mim h2 {
     font-size: 1.9em;
     margin: 10px 0;
-    color: #f23e02;
+    color: #fef5c8;
 }
 
 #sobre-mim p {
-    font-size: 1.2em;
+    font-size: 1.6em;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1100px;
 }
 
 
@@ -148,7 +148,7 @@ article {
 }
 
 .site-footer {
-    background-color: #2c6b74;
+    background-color: #013750;
     text-align: center;
     width: 100%;
     padding: 20px 0;
@@ -187,7 +187,7 @@ article {
 }
 
 .site-footer .social-icons a {
-    color: #333;
+    color: #fef5c8;
     font-size: 18px;
     transition: color 0.3s ease;
     text-decoration: none;
@@ -456,3 +456,20 @@ article {
     }
 
 }
+
+
+[data-tema='dark'] {
+    --background-body: #311d39;
+    --background-container: #555353;
+    --color-body: #c3ccaf;
+    --background-sobre-mim: #9b8e7e;
+    --color-sobre-mim: #fef5c8;
+  }
+  
+  [data-tema='light'] {
+    --background-body: #fef5c8;
+    --background-container: #dfdbdb;
+    --color-body: #00988d;
+    --background-sobre-mim: #2c6b74;
+    --color-sobre-mim: #c3ccaf;
+  }

@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="style/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 </head>
-<header class="site-header">
+<!-- <header class="site-header">
     <div>
         <nav class="nav">
             <a href="#sobre-mim">Sobre Mim</a>
@@ -28,7 +29,7 @@
             <a href="#contato">Contato</a>
         </nav>
     </div>
-</header>
+</header> -->
 <article id="sobre-mim">
     <h1>Renato Augusto Platz Guimarães Neto</h1>
     <img class="img-responsive image" src="img/perfil.png" alt="Renato Augusto Platz Guimarães Neto">
@@ -40,14 +41,16 @@
             </p>
         </div>
 </article>
-<body onLoad="initClock()">
-   
+<body data-tema="dark">
+
+ <!-- <div id="clock"></div> -->
 
     <main class="container">
 
        
 
                     <section id=" hard-skills">
+                        
                         <h1>Hard Skills</h1>
                         <h3>Linguagens de programação</h3>
                         <div class="project-grid">
@@ -332,17 +335,33 @@
 </body>
 <footer class="site-footer">
     <div class="container">
-        <div id="clock"></div>
+        
+       
         <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
+                <nav class="nav">
+                    <a href="#sobre-mim">Sobre Mim</a>
+                    <a href="#hard-skills">Hard Skills</a>
+                    <a href="#soft-skills">Soft Skills</a>
+                    <a href="#experiencia-profissional">Experiência Profissional</a>
+                    <a href="#meus-projetos">Meus Projetos</a>
+                    <a href="#certificados">Certificados</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+            </div>
+
+
+
+
+            <div class="col-md-8 col-sm-6 col-xs-12">
                 <p class="copyright-text">
-                    Copyright &copy; 2024 All Rights Reserved by
-                    <a href="#">Renato Augusto A. Platz G. Neto</a>
+                    Copyright &copy; 2024 All Rights Reserved by Renato Augusto A. Platz G. Neto
+                    
                 </p>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-12">
-                <p>ENTRE EM CONTATO COMIGO</p>
+               
                 <ul class="social-icons">
                     <li>
                         <a class="whatsapp" href="https://wa.me/5544997446666" target="_blank" rel="noopener noreferrer" title="Acessar o whatsapp" aria-label="WhatsApp">
@@ -364,6 +383,9 @@
                             <i class="fab fa-linkedin"></i>
                         </a>
                     </li>
+                    <li>
+                        <a href="#" onclick="alterarTema()" id="linkAlterarTema"><span class="mdi mdi-theme-light-dark"></span></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -372,4 +394,4 @@
 
 </html>
 
-<script src=" clock.js"></script>
+<script src=" index.js"></script>
