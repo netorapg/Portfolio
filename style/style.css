@@ -103,7 +103,7 @@ ul {
 
 h1 {
     font-weight: bold;
-    color: #013750;
+    color: var(--color-h1, #013750);
 }
 
 p {
@@ -128,7 +128,7 @@ code {
 
 a {
     font-weight: bold;
-    color: #f23e02;
+    color: var(--color-a, #f23e02);
     text-decoration: none;
     transition: all 200ms;
 
@@ -148,7 +148,7 @@ article {
 }
 
 .site-footer {
-    background-color: #013750;
+    background-color: var(--background-footer, #013750);
     text-align: center;
     width: 100%;
     padding: 20px 0;
@@ -187,21 +187,22 @@ article {
 }
 
 .site-footer .social-icons a {
-    color: #fef5c8;
+    color: var(--social-icons-color, #fef5c8);
     font-size: 18px;
     transition: color 0.3s ease;
     text-decoration: none;
 }
 
 .site-footer .social-icons a:hover {
-    color: #007bff;
+    color: var(--social-icons-color-hover, #f23e02);
 }
 
 .site-footer .copyright-text {
     margin: 0;
-    color: #fef5c8;
+    color: var(--copy-right-color, #fef5c8);
     flex: 1;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -277,7 +278,7 @@ article {
 
 .nav a {
     padding: 15px 20px;
-    color: #fff;
+    color: var(--nav-color-a, #fef5c8);
     text-decoration: none;
     font-size: 1em;
     transition: color 0.3s, background-color 0.3s;
@@ -285,8 +286,9 @@ article {
 
 .nav a:hover,
 .nav a:focus {
-    color: #013750;
-    background-color: #fef5c8;
+    color: var(--nav-color-a-hover, #013750);
+    background-color: var(--nav-color-a-focus, #fef5c8);
+    border-radius: 10px;
 }
 
 .nav a.active {
@@ -462,8 +464,17 @@ article {
     --background-body: #311d39;
     --background-container: #555353;
     --color-body: #c3ccaf;
-    --background-sobre-mim: #9b8e7e;
+    --background-sobre-mim: #6a0e47;
     --color-sobre-mim: #fef5c8;
+    --color-h1: #b50d57;
+    --color-a: #ff0d66;
+    --background-footer: #6a0e47;
+    --social-icons-color: #dec790;
+    --social-icons-color-hover: #ff0d66;
+    --copy-right-color: #ff0d66;
+    --nav-color-a: #dec790;
+    --nav-color-a-hover: #b50d57;
+    --nav-color-a-focus: #dec790;
   }
   
   [data-tema='light'] {
@@ -472,4 +483,13 @@ article {
     --color-body: #00988d;
     --background-sobre-mim: #2c6b74;
     --color-sobre-mim: #c3ccaf;
+    --color-h1: #013750;
+    --color-a: #f23e02;
+    --background-footer: #2c6b74;
+    --social-icons-color: #fef5c8;
+    --social-icons-color-hover: #f23e02;
+    --copy-right-color: #f23e02;
+    --nav-color-a: #fef5c8;
+    --nav-color-a-hover: #013750;
+    --nav-color-a-focus: #fef5c8;
   }
