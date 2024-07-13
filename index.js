@@ -4,3 +4,12 @@ function alterarTema() {
     document.body.setAttribute("data-tema", novoTema);
     localStorage.setItem('tema', novoTema);
 }
+
+function verificarTema() {
+    const temaArmazenado = localStorage.getItem('tema');
+    if(temaArmazenado) {
+        document.body.setAttribute('data-tema', temaArmazenado);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', verificarTema);
