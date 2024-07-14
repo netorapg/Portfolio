@@ -48,3 +48,14 @@ fetchGitHubStats('netorapg');
 
 const anoAtual = new Date().getFullYear();
 document.getElementById('ano-atual').textContent = anoAtual;
+
+function copyText(elementId) {
+    var text = document.getElementById(elementId).textContent;
+    var tempInput = document.createElement('input');
+    tempInput.value = text;
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand('copy');
+    document.body.removeChild(tempInput);
+    alert('Texto copiado para a área de transferência: ' + text);
+}

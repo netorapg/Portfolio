@@ -533,7 +533,18 @@ article {
     }
 
 }
-
+.contact-info {
+    margin-bottom: 20px;
+}
+.copy-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: var(--color-a, #f23e02);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+}
 
 [data-tema='dark'] {
     --background-body: #311d39;
