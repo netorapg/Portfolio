@@ -44,3 +44,7 @@ async function fetchGitHubStats(username) {
 }
 
 fetchGitHubStats('netorapg');
+
+
+const anoAtual = new Date().getFullYear();
+document.getElementById('ano-atual').textContent = anoAtual;
