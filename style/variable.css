@@ -1,6 +1,3 @@
-/* variable.css */
-
-/* Tema escuro */
 [data-tema='dark'] {
     --background-body: #311d39;
     --background-container: #555353;
@@ -30,7 +27,6 @@
     --project-li-color: #c3ccaf;
 }
 
-/* Tema claro */
 [data-tema='light'] {
     --background-body: #fef5c8;
     --background-container: #dfdbdb;
