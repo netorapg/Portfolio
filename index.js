@@ -1,20 +1,3 @@
-function alterarTema() {
-    const tema = document.body.getAttribute("data-tema");
-    const novoTema = tema =='dark' ? 'light' : 'dark';
-    document.body.setAttribute("data-tema", novoTema);
-    localStorage.setItem('tema', novoTema);
-}
-
-function verificarTema() {
-    const temaArmazenado = localStorage.getItem('tema');
-    if(temaArmazenado) {
-        document.body.setAttribute('data-tema', temaArmazenado);
-    }
-}
-
-document.addEventListener('DOMContentLoaded', verificarTema);
-
-
 async function fetchGitHubStats(username) {
     try {
         const reposResponse = await fetch(`https://api.github.com/users/${username}/repos`);
@@ -44,11 +27,12 @@ async function fetchGitHubStats(username) {
     }
 }
 
-fetchGitHubStats('netorapg');
-
-
-const anoAtual = new Date().getFullYear();
-document.getElementById('ano-atual').textContent = anoAtual;
+function alterarTema() {
+    const tema = document.body.getAttribute("data-tema");
+    const novoTema = tema == 'dark' ? 'light' : 'dark';
+    document.body.setAttribute("data-tema", novoTema);
+    localStorage.setItem('tema', novoTema);
+}
 
 function copyText(elementId) {
     var text = document.getElementById(elementId).textContent;
@@ -60,3 +44,17 @@ function copyText(elementId) {
     document.body.removeChild(tempInput);
     alert('Texto copiado para a área de transferência: ' + text);
 }
+
+function verificarTema() {
+    const temaArmazenado = localStorage.getItem('tema');
+    if (temaArmazenado) {
+        document.body.setAttribute('data-tema', temaArmazenado);
+    }
+}
+
+const anoAtual = new Date().getFullYear();
+document.getElementById('ano-atual').textContent = anoAtual;
+
+document.addEventListener('DOMContentLoaded', verificarTema);
+
+fetchGitHubStats('netorapg');
