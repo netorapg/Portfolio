@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', verificarTema);
 async function fetchGitHubStats(username) {
     try {
         const reposResponse = await fetch(`https://api.github.com/users/${username}/repos`);
+        console.log(reposResponse);
         if (!reposResponse.ok) {
             throw new Error('Erro ao obter repositórios do GitHub');
         }
