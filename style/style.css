@@ -23,7 +23,7 @@ a {
 
 a:hover,
 a:focus {
-    color: rgb(255, 255, 255);
+    color: var(--link-hover, #9f2b05);
 }
 
 article {
