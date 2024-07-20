@@ -1,4 +1,4 @@
-@import url(variable.css);
+@import url('variable.css');
 
 * {
     box-sizing: border-box;
@@ -19,20 +19,20 @@ a {
     color: var(--color-a, #f23e02);
     text-decoration: none;
     transition: all 200ms;
+}
 
-    &:hover,
-    &:focus {
-        color: rgb(255, 255, 255);
-    }
+a:hover,
+a:focus {
+    color: rgb(255, 255, 255);
 }
 
 article {
     min-height: 50vh;
     margin-bottom: 10px;
+}
 
-    .margin {
-        margin-bottom: 100vh;
-    }
+.margin {
+    margin-bottom: 100vh;
 }
 
 .container {
@@ -107,19 +107,6 @@ article {
     border-radius: 10px;
     transition: box-shadow var(--transition-speed), transform var(--transition-speed);
     margin-left: 10px;
-}
-
-.hardskill:hover {
-    box-shadow: 0 0 10px rgb(3, 136, 125);
-    transform: scale(1.05);
-}
-
-.hardskill img {
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    margin-right: 5px;
 }
 
 .image {
@@ -251,14 +238,12 @@ article {
     left: 0;
 }
 
-/* Container within Footer */
 .site-footer .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px; /* Ajusta o padding para um espaço mais confortável */
+    padding: 0 15px;
 }
 
-/* Flexbox Row for Footer Layout */
 .site-footer .row {
     display: flex;
     flex-direction: column;
@@ -266,19 +251,18 @@ article {
     text-align: center;
 }
 
-/* Social Icons List */
 .site-footer .social-icons {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 10px; /* Diminui o espaçamento entre os ícones */
+    gap: 10px;
 }
 
 .site-footer .social-icons a {
     color: var(--social-icons-color, #fef5c8);
-    font-size: 18px; /* Ajusta o tamanho da fonte para os ícones */
+    font-size: 18px;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -287,14 +271,12 @@ article {
     color: var(--social-icons-color-hover, #f23e02);
 }
 
-/* Copyright Text */
 .site-footer .copyright-text {
-    margin-top: 5px; /* Ajusta a margem superior para reduzir o espaço */
+    margin-top: 5px;
     font-weight: bold;
-    font-size: 14px; /* Ajusta o tamanho da fonte */
+    font-size: 14px;
 }
 
-/* Responsive Styles */
 @media (max-width: 480px) {
     #sobre-mim h1 {
         font-size: 1.5em;
@@ -441,7 +423,6 @@ article {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
@@ -483,63 +464,4 @@ article {
     font-size: 1.6em;
     margin: 20px auto;
     max-width: 1100px;
-}
-
-
-[data-tema='dark'] {
-    --background-body: #311d39;
-    --background-container: #555353;
-    --color-body: #c3ccaf;
-    --background-sobre-mim: #6a0e47;
-    --color-sobre-mim: #fef5c8;
-    --color-h1: #b50d57;
-    --color-a: #ff0d66;
-    --background-footer: #6a0e47;
-    --social-icons-color: #dec790;
-    --social-icons-color-hover: #ff0d66;
-    --copy-right-color: #ff0d66;
-    --nav-color-a: #dec790;
-    --nav-color-a-hover: #b50d57;
-    --nav-color-a-focus: #dec790;
-    --hardskill-background-color: #b50d57;
-    --progress-bar-change: #ff0d66;
-    --experience-background-color: #3b205e;
-    --experience-h3-color: #c3ccaf;
-    --experience-h4-color: #c3ccaf;
-    --experience-p-color: #c3ccaf;
-    --experience-li-color: #c3ccaf;
-    --project-background-color: #3b205e;
-    --project-h2-color: #c3ccaf;
-    --project-p-color: #c3ccaf;
-    --project-h3-color: #c3ccaf;
-    --project-li-color: #c3ccaf;
-}
-
-[data-tema='light'] {
-    --background-body: #fef5c8;
-    --background-container: #dfdbdb;
-    --color-body: #00988d;
-    --background-sobre-mim: #2c6b74;
-    --color-sobre-mim: #c3ccaf;
-    --color-h1: #013750;
-    --color-a: #f23e02;
-    --background-footer: #2c6b74;
-    --social-icons-color: #fef5c8;
-    --social-icons-color-hover: #f23e02;
-    --copy-right-color: #f23e02;
-    --nav-color-a: #fef5c8;
-    --nav-color-a-hover: #013750;
-    --nav-color-a-focus: #fef5c8;
-    --hardskill-background-color: #013750;
-    --progress-bar-change: #00988d;
-    --experience-background-color: #fff;
-    --experience-h3-color: #333;
-    --experience-h4-color: #333;
-    --experience-p-color: #666;
-    --experience-li-color: #333;
-    --project-background-color: #fff;
-    --project-h2-color: #333;
-    --project-p-color: #666;
-    --project-h3-color: #333;
-    --project-li-color: #333;
 }
