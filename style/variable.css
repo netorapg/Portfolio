@@ -35,11 +35,11 @@
     --background-sobre-mim: #2c6b74;
     --color-sobre-mim: #c3ccaf;
     --color-h1: #013750;
-    --color-a: #f23e02;
+    --color-a: #03be8b;
     --background-footer: #2c6b74;
     --social-icons-color: #fef5c8;
-    --social-icons-color-hover: #f23e02;
-    --copy-right-color: #f23e02;
+    --social-icons-color-hover: #03be8b;
+    --copy-right-color: #03be8b;
     --nav-color-a: #fef5c8;
     --nav-color-a-hover: #013750;
     --nav-color-a-focus: #fef5c8;
@@ -55,5 +55,5 @@
     --project-p-color: #666;
     --project-h3-color: #333;
     --project-li-color: #333;
-    --link-hover: #9f2b05;
+    --link-hover: #019969;
 }
